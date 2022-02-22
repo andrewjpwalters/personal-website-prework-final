@@ -1,15 +1,11 @@
 body {
-    background: gainsboro;
+    background: #161a1d;
 }
 
-/* #artifact-article-1 {
-    display: none;
+h1 {
+    color: #A4161A;
 }
 
-#artifact-article-2 {
-    display: none;
+#profile-pic {
+    border-radius: 50%;
 }
-
-#artifact-article-3 {
-    display: none;
-} */
