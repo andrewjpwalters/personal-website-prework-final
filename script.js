@@ -1,43 +1,29 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This content added by JavaScript";
 
-// document.querySelector("body").appendChild(h2);
+const artifactButtonOne = document.querySelector('#artifact-button-1');
+const artifactButtonTwo = document.querySelector('#artifact-button-2');
+const artifactButtonThree = document.querySelector('#artifact-button-3');
+const artifactBodyOne = document.querySelector('#artifact-article-1');
+const artifactBodyTwo = document.querySelector('#artifact-article-2');
+const artifactBodyThree = document.querySelector('#artifact-article-3');
 
-// const artifactBody = document.createElement('div');
-
-// const artifactContainer = document.querySelector("#content");
-
-const artifactOne = document.querySelector('#artifact-1');
-const artifactTwo = document.querySelector('#artifact-2');
-const artifactThree = document.querySelector('#artifact-3');
-
-artifactOne.addEventListener('click', function () {
-
+artifactButtonOne.addEventListener('click', function () {
+    if (artifactBodyOne.hidden === true) {
+        artifactBodyOne.hidden = false;
+        artifactBodyTwo.hidden = true;
+        artifactBodyThree.hidden = true;
+    }
 })
-
-// artifactOne.addEventListener("click", function () {
-//     const image = document.createElement('img');
-//     const text = document.createElement('div');
-//     image.src = "./images/house.jpeg";
-//     artifactBody.append(image);
-//     artifactBody.appendChild(text);
-//     artifactContainer.appendChild(artifactBody);
-//     return artifactContainer;
-// })
-
-// artifactTwo.addEventListener("click", function () {
-//     const image = document.createElement('img');
-//     image.src = "./images/mannequin.jpeg";
-//     artifactBody.append(image);
-//     artifactContainer.appendChild(artifactBody);
-//     return artifactContainer;
-// })
-
-// artifactThree.addEventListener("click", function () {
-//     const image = document.createElement('img');
-//     image.src = "./images/vines.jpeg";
-//     artifactBody.append(image);
-//     artifactContainer.appendChild(artifactBody);
-//     return artifactContainer;
-// })
-
+artifactButtonTwo.addEventListener('click', function () {
+    if (artifactBodyTwo.hidden === true) {
+        artifactBodyTwo.hidden = false;
+        artifactBodyOne.hidden = true;
+        artifactBodyThree.hidden = true;
+    }
+})
+artifactButtonThree.addEventListener('click', function () {
+    if (artifactBodyThree.hidden === true) {
+        artifactBodyThree.hidden = false;
+        artifactBodyTwo.hidden = true;
+        artifactBodyOne.hidden = true;
+    }
+})
