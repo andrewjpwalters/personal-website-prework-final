@@ -24,18 +24,34 @@ h1 {
     width: 100%;
 }
 
+#nav-bar {
+    margin: 20px;
+}
 
 #content {
     margin: auto;
     width: 80%;
+    max-width: 1500px;
+    max-height: 100px;
 }
 
 #content img {
     width: 100%;
-    overflow: hidden;
+    margin: 10px 0 0 0;
+    border: 2px #0B090A solid;
+    padding: 2px;
 }
 
 #content p {
     color: white;
     font-size: 1em;
+}
+
+.para-container {
+    max-width: 500px;
+    margin: auto;
+    border: 3px #0B090A solid;
+    border-radius: 5px;
+    padding: 0 20px;
+    background-color: rgba(102, 7, 8, .4);
 }
