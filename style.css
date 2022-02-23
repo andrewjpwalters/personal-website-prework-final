@@ -7,7 +7,13 @@ body {
 h1 {
     color: #A4161A;
     margin: 50px 0 0 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #A4161A;
     font-size: 3.5em;
+    margin: 0;
 }
 
 #profile {
@@ -50,8 +56,9 @@ h1 {
 .para-container {
     max-width: 500px;
     margin: auto;
-    border: 3px #0B090A solid;
-    border-radius: 5px;
+    border: 3px rgba(11, 9, 10, .1) solid;
+    /* border-radius: 5px; */
     padding: 0 20px;
-    background-color: rgba(102, 7, 8, .4);
+    background-color: rgba(11, 9, 10, .5);
+    /* background-color: rgba(102, 7, 8, .4); */
 }
