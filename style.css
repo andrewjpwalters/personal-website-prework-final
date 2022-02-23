@@ -1,35 +1,28 @@
 body {
     background: #161a1d;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 h1 {
     color: #A4161A;
-    /* text-align: center; */
-    /* position: relative; */
     margin: 50px 0 0 0;
+    font-size: 3em;
 }
 
+#profile {
+    max-width: 300px;
+    width: 20%;
+    margin: auto;
+    min-width: 200px;
+}
 
 #profile-pic {
     border-radius: 50%;
     border: 2px #0B090A solid;
     padding: 2px;
-    width: 100px;
+    width: 100%;
 }
 
-header {
-    /* text-align: center; */
-    /* position: relative; */
-}
-
-#nav-bar {
-    /* position: relative;
-    top: -180px; */
-}
 
 #content {
     margin: auto;
