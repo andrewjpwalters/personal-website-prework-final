@@ -4,6 +4,10 @@ body {
     font-family: 'Gideon Roman', serif;
 }
 
+body button {
+
+}
+
 h1 {
     color: #A4161A;
     margin: 50px 0 0 0;
@@ -38,7 +42,6 @@ h2 {
     margin: auto;
     width: 80%;
     max-width: 1500px;
-    max-height: 100px;
 }
 
 #content img {
@@ -57,8 +60,6 @@ h2 {
     max-width: 500px;
     margin: auto;
     border: 3px rgba(11, 9, 10, .1) solid;
-    /* border-radius: 5px; */
     padding: 0 20px;
     background-color: rgba(11, 9, 10, .5);
-    /* background-color: rgba(102, 7, 8, .4); */
 }
