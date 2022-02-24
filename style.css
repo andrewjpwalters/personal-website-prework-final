@@ -40,10 +40,10 @@ h2 {
 }
 
 #profile {
-    max-width: 300px;
+    max-width: 225px;
     width: 20%;
     margin: auto;
-    min-width: 200px;
+    min-width: 180px;
 }
 
 #profile-pic {
@@ -81,12 +81,11 @@ h2 {
     border: 3px rgba(11, 9, 10, .1) solid;
     padding: 0 20px;
     background-color: rgba(11, 9, 10, .5);
-    transition: all 0.25s;
+    transition: 0.25s;
 }
 
 .para-container:hover {
     background-color: #0B090A;
-    font-size: 1.005em;
     border-radius: 10px;
 }
 
@@ -97,6 +96,6 @@ h2 {
 
 #cover-image {
     border-radius: 50%;
-    max-height: 576px;
-    max-width: 384px;
+    max-height: 634px;
+    max-width: 422px;
 }
