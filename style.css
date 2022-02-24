@@ -5,7 +5,26 @@ body {
 }
 
 body button {
+    background: #0B090A;
+    color:#A4161A;
+    border: 2px #660708 solid;
+    margin: 0 5px;
+    padding: 0.2em 1em;
+    font-size: 1em;
+    transition: all 0.25s;
+    font-family: 'Gideon Roman', serif;
+}
 
+#close-artifact {
+    margin: 15px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+
+body button:hover {
+    color: white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 h1 {
@@ -41,7 +60,7 @@ h2 {
 #content {
     margin: auto;
     width: 80%;
-    max-width: 1500px;
+    max-width: 1000px;
 }
 
 #content img {
@@ -62,4 +81,17 @@ h2 {
     border: 3px rgba(11, 9, 10, .1) solid;
     padding: 0 20px;
     background-color: rgba(11, 9, 10, .5);
+    transition: all 0.25s;
+}
+
+.para-container:hover {
+    /* background-color: rgba(102, 7, 8, 0.6); */
+    background-color: #0B090A;
+    font-size: 1.005em;
+    border-radius: 10px;
+}
+
+#artifact-article-1 img {
+    max-height: 1024px;
+    max-width: 682px;
 }

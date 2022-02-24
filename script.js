@@ -15,7 +15,6 @@ artifactButtonOne.addEventListener('click', function () {
         artifactBodyTwo.hidden = true;
         artifactBodyThree.hidden = true;
         profilePic.hidden = true;
-        hr.hidden = false;
         closeArtifact.hidden = false;
     }
 })
@@ -25,7 +24,6 @@ artifactButtonTwo.addEventListener('click', function () {
         artifactBodyOne.hidden = true;
         artifactBodyThree.hidden = true;
         profilePic.hidden = true;
-        hr.hidden = false;
         closeArtifact.hidden = false;
     }
 })
@@ -35,7 +33,6 @@ artifactButtonThree.addEventListener('click', function () {
         artifactBodyTwo.hidden = true;
         artifactBodyOne.hidden = true;
         profilePic.hidden = true;
-        hr.hidden = false;
         closeArtifact.hidden = false;
     }
 })
@@ -45,6 +42,5 @@ closeArtifact.addEventListener('click', function () {
     artifactBodyTwo.hidden = true;
     artifactBodyThree.hidden = true;
     profilePic.hidden = false;
-    hr.hidden = true;
     closeArtifact.hidden = true;
 })
