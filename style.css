@@ -85,7 +85,6 @@ h2 {
 }
 
 .para-container:hover {
-    /* background-color: rgba(102, 7, 8, 0.6); */
     background-color: #0B090A;
     font-size: 1.005em;
     border-radius: 10px;
@@ -94,4 +93,10 @@ h2 {
 #artifact-article-1 img {
     max-height: 1024px;
     max-width: 682px;
+}
+
+#cover-image {
+    border-radius: 50%;
+    max-height: 576px;
+    max-width: 384px;
 }

@@ -7,7 +7,7 @@ const artifactBodyTwo = document.querySelector('#artifact-article-2');
 const artifactBodyThree = document.querySelector('#artifact-article-3');
 const closeArtifact = document.querySelector('#close-artifact')
 const profilePic = document.querySelector('#profile')
-const hr = document.querySelector('hr')
+const coverImage = document.querySelector('#cover-image')
 
 artifactButtonOne.addEventListener('click', function () {
     if (artifactBodyOne.hidden === true) {
@@ -15,6 +15,7 @@ artifactButtonOne.addEventListener('click', function () {
         artifactBodyTwo.hidden = true;
         artifactBodyThree.hidden = true;
         profilePic.hidden = true;
+        coverImage.hidden = true;
         closeArtifact.hidden = false;
     }
 })
@@ -24,6 +25,7 @@ artifactButtonTwo.addEventListener('click', function () {
         artifactBodyOne.hidden = true;
         artifactBodyThree.hidden = true;
         profilePic.hidden = true;
+        coverImage.hidden = true;
         closeArtifact.hidden = false;
     }
 })
@@ -33,6 +35,7 @@ artifactButtonThree.addEventListener('click', function () {
         artifactBodyTwo.hidden = true;
         artifactBodyOne.hidden = true;
         profilePic.hidden = true;
+        coverImage.hidden = true;
         closeArtifact.hidden = false;
     }
 })
@@ -42,5 +45,6 @@ closeArtifact.addEventListener('click', function () {
     artifactBodyTwo.hidden = true;
     artifactBodyThree.hidden = true;
     profilePic.hidden = false;
+    coverImage.hidden = false;
     closeArtifact.hidden = true;
 })
